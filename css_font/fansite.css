@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "RDR";
+    src: url(../css_font/chinese-rocks-rg.otf);
+}
+* {
+    font-family: RDR;
+    margin: 0px;
+}
+h1 {
+    font-size: 180px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 10px 20px 5px black;
+}
+span {
+    color: #ef0501;
+    text-shadow: 10px 20px 5px black;
+}
+body {
+    background: url(../img/wall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    font-size: 40px;
+    text-shadow: 10px 15px 5px black;
+}
+.nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #FE9A07;
+}
+ul {
+    list-style: none;
+}
+header li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+header li a {
+display: block;
+padding: 20px;
+}
+header li:hover .sub-menu {
+    display: block;
+    opacity: 0.85;
+}    
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #ef0501;
+    opacity: ;
+}
+footer {
+  background-image: url(/Fansite/img/footer.png);
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  opacity: 0.75;
+  margin-top: 85px;
+}
+footer img{
+  width: 10vw; height: 10vh;
+margin-top: 30px;
+}
+.f1 {
+    margin-top: -50px;
+}
+.intro {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px black;   
+}
+#vidintro {
+    margin: 0 auto;
+    width: 50vw;
+    height: 70vh;
+    display: block;
+}
+.wanted {
+    font-size: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 10px 20px 5px black;
+    background-image: linear-gradient(0deg,rgba(199,153,115,0.60) 0%,rgba(182,120,52,0.7) 50%, rgba(235, 215, 169,0.8 )100%);
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.wanted img {
+    background-color: #FFFFFF;
+    width: 200px; height: 200px;
+}
+#hist {
+
+    background-image: url(/Fansite/img/Bande_de_Dutch_van_der_Linde.webp);
+    height: 100vh;
+    background-size: cover;
+    
+    opacity: 0.95;
+    text-align: center;
+    font-size: larger;
+}
+.Dutch {
+    background: url(../img/Dutch_wp.jpg);
+    background-size: 100%;
+}
+.Sadie {
+    background: url(../img/Sadie_wp.jpg);
+    background-size: 100%;
+}
+.John {
+    background: url(../img/John_wp.jpg);
+    background-size: 100%;
+}
+.Arthur {
+    background: url(../img/Arthur_wp.jpg);
+    background-size: 100%;
+}
+.Hosea {
+    background: url(../img/Hosea_wp.jpg);
+    background-size: 100%;
+}
+.Micah {
+    background: url(../img/Micah_wp.jpg);
+    background-size: 100%;
+}
+.Sean {
+    background: url(../img/Sean_wp.jpg);
+    background-size: 100%;
+}
+.Charles {
+    background: url(../img/Charles_wp.jpg);
+    background-size: 100%;
+}
+.Bill {
+    background: url(../img/Bill_wp.jpg);
+    background-size: 100%;
+}
+.Javier {
+    background: url(../img/Javier_wp.jpg);
+    background-size: 100%;
+}
+.Lenny {
+    background: url(../img/Lenny_wp.jpg);
+    background-size: 100%;
+}
+.map {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+#fons{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    margin-top: 15vh;
+}
+#Ambarino {
+    background-image: url(/Fansite/img/Ambarino1.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 10vh;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Colter {
+    background-image: url(/Fansite/img/Colter.webp);
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Lake_Isabella {
+    background-image: url(/Fansite/img/Ambarino_LakeIsabella.jpg);
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Lemoyne {
+    background-image: url(/Fansite/img/Lemoyne.webp);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 10vh;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Saint_Denis {
+    background-image: url(/Fansite/img/SaintDenis.webp);
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Rhodes {
+    background-image: url(/Fansite/img/Rhodes.jpg);
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#New_Austin {
+    background-image: url(/Fansite/img/New_Austin.webp);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 10vh;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Armadillo {
+    background-image: url(/Fansite/img/Armadillo.webp);
+    height: 100vh;
+    background-size: cover;
+   opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Tumbleweed {
+    background-image: url(/Fansite/img/Tumbleweed.webp);
+    height: 100vh;
+    background-size: cover;
+   opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#New_Hanover {
+    background-image: url(/Fansite/img/New-hanover.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 10vh;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Valentine {
+    background-image: url(/Fansite/img/Valentine.webp);
+    height: 100vh;
+    background-size: cover;
+   opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Emerald_Ranch {
+    background-image: url(/Fansite/img/Emerald_Ranch.webp);
+    height: 100vh;
+    background-size: cover;
+   opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#West_Elisabeth {
+    background-image: url(/Fansite/img/Westelizabeth.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 10vh;
+    opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Blackwater {
+    background-image: url(/Fansite/img/Blackwater.webp);
+    height: 100vh;
+    background-size: cover;
+   opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
+#Strawberry {
+    background-image: url(/Fansite/img/Strawberry.jpg);
+    height: 100vh;
+    background-size: cover;
+   opacity: 0.9;
+    text-align: center;
+    font-size: larger;
+}
